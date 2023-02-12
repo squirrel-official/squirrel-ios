@@ -22,21 +22,21 @@
         "validation": {
             "empty": "$t(addServer.address) ne povas esti malplena",
             "invalid": "$t(addServer.address) estas nevalida",
-            "invalidProduct": "Ne Jellyfin-servilo",
+            "invalidProduct": "Ne squirrel-servilo",
             "noConnection": "Ne eblis konekti al servilo"
         }
     },
     "home": {
         "errors": {
             "502": {
-                "description": "Ne eblas atingi la Jellyfin-servilon. Ĉi tio kutime estas pro eraro pri prokura agordaro aŭ Jellyfin estas eksterrete."
+                "description": "Ne eblas atingi la squirrel-servilon. Ĉi tio kutime estas pro eraro pri prokura agordaro aŭ squirrel estas eksterrete."
             },
             "504": {
-                "description": "Ne eblas atingi la Jellyfin-servilon. Ĉi tio kutime estas ĉar la prokurilo elĉerpiĝis dum konekto al Jellyfin."
+                "description": "Ne eblas atingi la squirrel-servilon. Ĉi tio kutime estas ĉar la prokurilo elĉerpiĝis dum konekto al squirrel."
             },
             "http": {
                 "heading": "Io misfunkciis!",
-                "description": "La Jellyfin-servilo resendis eraron."
+                "description": "La squirrel-servilo resendis eraron."
             },
             "invalidServer": {
                 "heading": "Servilo estas nevalida",
@@ -44,7 +44,7 @@
             },
             "offline": {
                 "heading": "Ĉu la servilo eksterrete?",
-                "description": "Eraro kontaktante Jellyfin-servilon."
+                "description": "Eraro kontaktante squirrel-servilon."
             }
         },
         "errorCode": "Erara kodo: {{errorCode}}",
@@ -52,8 +52,8 @@
         "retry": "Ĉu provi denove?"
     },
     "serverHelp": {
-        "heading": "Kio estas Jellyfin?",
-        "description": "Jellyfin estas la volontul-konstruita plurmedia solvo. Ĝi permesas vin gastigi viajn proprajn plurmediojn kaj aliri ĝin de ie ajn.\n\n\nPor uzi ĉi tiun klienton, vi devas gastigi vian propran Jellyfin-servilon.",
+        "heading": "Kio estas squirrel?",
+        "description": "squirrel estas la volontul-konstruita plurmedia solvo. Ĝi permesas vin gastigi viajn proprajn plurmediojn kaj aliri ĝin de ie ajn.\n\n\nPor uzi ĉi tiun klienton, vi devas gastigi vian propran squirrel-servilon.",
         "learnMore": "Lerni pli pri kiel gastigi vian propran servilon"
     },
     "settings": {
@@ -69,7 +69,7 @@
         "expoVersion": "Versio de Expo: {{version}}"
     },
     "links": {
-        "website": "Jellyfin Retejo",
+        "website": "squirrel Retejo",
         "documentation": "Dokumentaro",
         "source": "Fonto de Kodo",
         "translate": "Traduki",

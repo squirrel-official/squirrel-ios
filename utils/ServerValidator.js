@@ -79,7 +79,7 @@ export const validateServer = async (server = {}) => {
 
 	try {
 		const responseJson = await fetchServerInfo(server);
-		const isValid = responseJson.ProductName === 'Jellyfin Server';
+		const isValid = responseJson.ProductName === 'squirrel Server';
 		const answer = {
 			isValid
 		};

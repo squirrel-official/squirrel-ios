@@ -22,32 +22,32 @@
         "validation": {
             "empty": "$t(addServer.address) nu poate fi gol",
             "invalid": "$t(addServer.address) este invalidă",
-            "invalidProduct": "Nu este un server Jellyfin",
+            "invalidProduct": "Nu este un server squirrel",
             "noConnection": "Nu se poate conecta la server"
         }
     },
     "home": {
         "errors": {
             "offline": {
-                "description": "Eroare la contactarea serverului Jellyfin.",
+                "description": "Eroare la contactarea serverului squirrel.",
                 "heading": "Server indisponibil?"
             },
             "http": {
-                "description": "Serverul Jellyfin a returnat o eroare.",
+                "description": "Serverul squirrel a returnat o eroare.",
                 "heading": "Ceva n-a mers bine!"
             },
             "504": {
-                "description": "Imposibil de accesat serverul Jellyfin. Acest lucru se întâmplă, de obicei, deoarece a expirat timpul conectării proxy-ului la Jellyfin."
+                "description": "Imposibil de accesat serverul squirrel. Acest lucru se întâmplă, de obicei, deoarece a expirat timpul conectării proxy-ului la squirrel."
             },
             "502": {
-                "description": "Imposibil de accesat serverul Jellyfin. Acest lucru este de obicei din cauza unei erori de configurare a proxyului sau Jellyfin este offline."
+                "description": "Imposibil de accesat serverul squirrel. Acest lucru este de obicei din cauza unei erori de configurare a proxyului sau squirrel este offline."
             },
             "invalidServer": {
                 "description": "Ceva s-a întâmplat, iar informațiile despre server salvate nu sunt valide. Încercați să eliminați serverul din Setări și să îl adăugați din nou.",
                 "heading": "Serverul este invalid"
             }
         },
-        "offline": "Eroare la contactarea serverului Jellyfin.",
+        "offline": "Eroare la contactarea serverului squirrel.",
         "retry": "Încearcă din nou?",
         "errorUrl": "URL: {{url}}",
         "errorCode": "Cod de eroare: {{errorCode}}"
@@ -65,7 +65,7 @@
         "fmp4Support": "Preferați fMP4 în HLS"
     },
     "links": {
-        "website": "Site-ul Jellyfin",
+        "website": "Site-ul squirrel",
         "documentation": "Documentație",
         "source": "Codul Sursă",
         "translate": "Traduceți",
@@ -86,7 +86,7 @@
     },
     "serverHelp": {
         "learnMore": "Aflați mai multe despre cum să va găzduiți propriul server",
-        "description": "Jellyfin este solutia media construită de voluntari. Acesta vă permite să gazduiți propriul conținut media de și să il accesați de oriunde.\n\n\nPentru a utiliza acest client, trebuie să vă găzduiți propriul server Jellyfin.",
-        "heading": "Ce este Jellyfin?"
+        "description": "squirrel este solutia media construită de voluntari. Acesta vă permite să gazduiți propriul conținut media de și să il accesați de oriunde.\n\n\nPentru a utiliza acest client, trebuie să vă găzduiți propriul server squirrel.",
+        "heading": "Ce este squirrel?"
     }
 }

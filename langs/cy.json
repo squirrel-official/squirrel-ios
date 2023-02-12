@@ -19,21 +19,21 @@
         "validation": {
             "empty": "Ni all $t(addServer.address) fod yn wag",
             "invalid": "Mae $t(addServer.address) yn annilys",
-            "invalidProduct": "Ddim yn weinydd Jellyfin",
+            "invalidProduct": "Ddim yn weinydd squirrel",
             "noConnection": "Methu cysylltu â'r gweinydd"
         }
     },
     "home": {
         "errors": {
             "502": {
-                "description": "Methu cyrraedd y gweinydd Jellyfin. Mae hyn fel arfer oherwydd gwall gosodiadau procsi neu mae Jellyfin all-lein."
+                "description": "Methu cyrraedd y gweinydd squirrel. Mae hyn fel arfer oherwydd gwall gosodiadau procsi neu mae squirrel all-lein."
             },
             "504": {
-                "description": "Methu cyrraedd y gweinydd Jellyfin. Mae hyn fel arfer oherwydd bod y procsi wedi methu pan yn cysylltu â Jellyfin."
+                "description": "Methu cyrraedd y gweinydd squirrel. Mae hyn fel arfer oherwydd bod y procsi wedi methu pan yn cysylltu â squirrel."
             },
             "http": {
                 "heading": "Aeth rhywbeth o'i le!",
-                "description": "Derbyniwyd gwall o'r gweinydd Jellyfin."
+                "description": "Derbyniwyd gwall o'r gweinydd squirrel."
             },
             "invalidServer": {
                 "heading": "Gweinydd yn annilys",
@@ -41,7 +41,7 @@
             },
             "offline": {
                 "heading": "Gweinydd all-lein?",
-                "description": "Gwall wrth gysylltu â'r gweinydd Jellyfin."
+                "description": "Gwall wrth gysylltu â'r gweinydd squirrel."
             }
         },
         "errorCode": "Cod gwall: {{errorCode}}",
@@ -49,8 +49,8 @@
         "retry": "Ceisio eto?"
     },
     "serverHelp": {
-        "heading": "Beth yw Jellyfin?",
-        "description": "Mae Jellyfin yn system cyfryngau a adeiladwyd gan wirfoddolwr. Mae'n caniatáu ichi gynnal eich cyfryngau eich hun a chael mynediad ato o unrhyw le.\n\n\nEr mwyn defnyddio'r cleient hwn, mae angen i chi gynnal gweinydd Jellyfin eich hun.",
+        "heading": "Beth yw squirrel?",
+        "description": "Mae squirrel yn system cyfryngau a adeiladwyd gan wirfoddolwr. Mae'n caniatáu ichi gynnal eich cyfryngau eich hun a chael mynediad ato o unrhyw le.\n\n\nEr mwyn defnyddio'r cleient hwn, mae angen i chi gynnal gweinydd squirrel eich hun.",
         "learnMore": "Dysgwch fwy am sut i gynnal eich gweinydd eich hun"
     },
     "settings": {
@@ -66,7 +66,7 @@
         "expoVersion": "Fersiwn Expo: {{version}}"
     },
     "links": {
-        "website": "Gwefan Jellyfin",
+        "website": "Gwefan squirrel",
         "documentation": "Dogfennaeth",
         "source": "Ffynhonnell Cod",
         "translate": "Cyfieithu",

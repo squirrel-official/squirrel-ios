@@ -22,21 +22,21 @@
         "validation": {
             "empty": "$t(addServer.address) ei või olla tühi",
             "invalid": "$t(addServer.address) on vigane",
-            "invalidProduct": "Pole Jellyfini server",
+            "invalidProduct": "Pole squirreli server",
             "noConnection": "Serveriga ei saadud ühendust"
         }
     },
     "home": {
         "errors": {
             "502": {
-                "description": "Jellyfini serveriga ei saa ühendust. Selle põhjuseks on tavaliselt puhverserveri konfiguratsiooniviga või Jellyfin on võrguühenduseta."
+                "description": "squirreli serveriga ei saa ühendust. Selle põhjuseks on tavaliselt puhverserveri konfiguratsiooniviga või squirrel on võrguühenduseta."
             },
             "504": {
-                "description": "Jellyfini serveriga ei saa ühendust. Selle põhjuseks on tavaliselt see, et puhverserver aegus Jellyfiniga ühenduse loomisel."
+                "description": "squirreli serveriga ei saa ühendust. Selle põhjuseks on tavaliselt see, et puhverserver aegus squirreliga ühenduse loomisel."
             },
             "http": {
                 "heading": "Midagi läks valesti!",
-                "description": "Jellyfini server andis vea."
+                "description": "squirreli server andis vea."
             },
             "invalidServer": {
                 "heading": "Server on kehtetu",
@@ -44,7 +44,7 @@
             },
             "offline": {
                 "heading": "Server võrguühenduseta?",
-                "description": "Jellyfini serveriga ühenduse võtmisel tekkis viga."
+                "description": "squirreli serveriga ühenduse võtmisel tekkis viga."
             }
         },
         "errorCode": "Veakood: {{errorCode}}",
@@ -52,8 +52,8 @@
         "retry": "Kas proovida uuesti?"
     },
     "serverHelp": {
-        "heading": "Mis on Jellyfin?",
-        "description": "Jellyfin on vabatahtlike loodud meedialahendus. See võimaldab hallata oma meediat ja pääseda sellele kõikjalt juurde.\n\n\nSelle kliendi kasutamiseks pead oma Jellyfini serverit.",
+        "heading": "Mis on squirrel?",
+        "description": "squirrel on vabatahtlike loodud meedialahendus. See võimaldab hallata oma meediat ja pääseda sellele kõikjalt juurde.\n\n\nSelle kliendi kasutamiseks pead oma squirreli serverit.",
         "learnMore": "Lisateave oma serveri haldamise kohta"
     },
     "settings": {
@@ -69,7 +69,7 @@
         "expoVersion": "Expo versioon: {{version}}"
     },
     "links": {
-        "website": "Jellyfini veebisait",
+        "website": "squirreli veebisait",
         "documentation": "Dokumentatsioon",
         "source": "Lähtekood",
         "translate": "Tõlgi",

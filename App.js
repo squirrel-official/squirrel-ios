@@ -8,7 +8,7 @@
 import 'react-native-url-polyfill/auto';
 
 import { Ionicons } from '@expo/vector-icons';
-import { getPlaystateApi } from '@jellyfin/sdk/lib/utils/api/playstate-api';
+import { getPlaystateApi } from '@squirrel/sdk/lib/utils/api/playstate-api';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { NavigationContainer } from '@react-navigation/native';
 import { Asset } from 'expo-asset';

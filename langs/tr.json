@@ -22,21 +22,21 @@
         "validation": {
             "empty": "$t(addServer.address) Boş Olamaz",
             "invalid": "$t(addServer.address) geçersiz",
-            "invalidProduct": "Jellyfin sunucusu değil",
+            "invalidProduct": "squirrel sunucusu değil",
             "noConnection": "Sunucuya bağlanılamadı"
         }
     },
     "home": {
         "errors": {
             "502": {
-                "description": "Jellyfin sunucusuna ulaşılamıyor. Bunun nedeni genellikle bir proxy yapılandırma hatasıdır veya Jellyfin çevrimdışıdır."
+                "description": "squirrel sunucusuna ulaşılamıyor. Bunun nedeni genellikle bir proxy yapılandırma hatasıdır veya squirrel çevrimdışıdır."
             },
             "504": {
-                "description": "Jellyfin sunucusuna ulaşılamıyor. Bunun nedeni genellikle proxy'nin Jellyfin'e bağlanırken zaman aşımına uğramasıdır."
+                "description": "squirrel sunucusuna ulaşılamıyor. Bunun nedeni genellikle proxy'nin squirrel'e bağlanırken zaman aşımına uğramasıdır."
             },
             "http": {
                 "heading": "Bir şeylerde hata var!",
-                "description": "Jellyfin sunucu kısmında hata var."
+                "description": "squirrel sunucu kısmında hata var."
             },
             "invalidServer": {
                 "heading": "Sunucu geçersiz",
@@ -44,7 +44,7 @@
             },
             "offline": {
                 "heading": "Sunucu çevrimdışı mı?",
-                "description": "Jellyfin sunucusuyla bağlantı kurulurken hata oluştu."
+                "description": "squirrel sunucusuyla bağlantı kurulurken hata oluştu."
             }
         },
         "errorCode": "Hata kodu: {{errorCode}}",
@@ -52,8 +52,8 @@
         "retry": "Tekrar deneyin?"
     },
     "serverHelp": {
-        "heading": "Jellyfin nedir?",
-        "description": "Jellyfin, gönüllü olarak oluşturulmuş medya çözümüdür. Kendi medyanızı barındırmanıza ve her yerden erişmenize olanak tanır.\n\n\nBu istemciyi kullanmak için kendi Jellyfin sunucunuzu barındırmanız gerekir.",
+        "heading": "squirrel nedir?",
+        "description": "squirrel, gönüllü olarak oluşturulmuş medya çözümüdür. Kendi medyanızı barındırmanıza ve her yerden erişmenize olanak tanır.\n\n\nBu istemciyi kullanmak için kendi squirrel sunucunuzu barındırmanız gerekir.",
         "learnMore": "Kendi sunucunuzu nasıl yaratacağınız hakkında daha fazla bilgi edinin"
     },
     "settings": {
@@ -69,7 +69,7 @@
         "expoVersion": "Expo Sürümü: {{version}}"
     },
     "links": {
-        "website": "Jellyfin Web Sitesi",
+        "website": "squirrel Web Sitesi",
         "documentation": "Belgeler",
         "source": "Kaynak Kodu",
         "translate": "Çevir",

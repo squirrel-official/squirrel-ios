@@ -22,14 +22,14 @@
         "validation": {
             "empty": "$t(addServer.address) לא יכול להיות ריק",
             "invalid": "$t(addServer.address) לא תקין",
-            "invalidProduct": "לא שרת Jellyfin",
+            "invalidProduct": "לא שרת squirrel",
             "noConnection": "לא אפשרי להתחבר לשרת"
         }
     },
     "home": {
         "errors": {
             "502": {
-                "description": "לא יכול להגיע לשרת Jellyfin. זה בדרך כלל קורה מכיוון שיש שגיאה בהגדרת ה-proxy או ש-Jellyfin לא מחובר."
+                "description": "לא יכול להגיע לשרת squirrel. זה בדרך כלל קורה מכיוון שיש שגיאה בהגדרת ה-proxy או ש-squirrel לא מחובר."
             },
             "504": {
                 "description": ""
@@ -52,7 +52,7 @@
         "retry": "נסה שוב ?"
     },
     "serverHelp": {
-        "heading": "מה זה Jellyfin?",
+        "heading": "מה זה squirrel?",
         "description": "",
         "learnMore": "למד עוד על איך לארח שרת משלך"
     },
@@ -69,7 +69,7 @@
         "expoVersion": "גרסת Expo: {{version}}"
     },
     "links": {
-        "website": "אתר Jellyfin",
+        "website": "אתר squirrel",
         "documentation": "תיעוד",
         "source": "קוד מקור",
         "translate": "תרגם",

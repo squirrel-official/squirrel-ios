@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
-import { Jellyfin } from '@jellyfin/sdk';
+import { squirrel } from '@squirrel/sdk';
 
 import DownloadStore from '../DownloadStore';
 import MediaStore from '../MediaStore';
@@ -20,7 +20,7 @@ describe('RootStore', () => {
 		expect(store.isReloadRequired).toBe(false);
 		expect(store.didPlayerCloseManually).toBe(true);
 
-		expect(store.sdk).toBeInstanceOf(Jellyfin);
+		expect(store.sdk).toBeInstanceOf(squirrel);
 		expect(store.sdk.deviceInfo.id).toBe(store.deviceId);
 
 		expect(store.downloadStore).toBeInstanceOf(DownloadStore);

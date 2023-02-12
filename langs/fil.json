@@ -19,21 +19,21 @@
         "validation": {
             "empty": "Ang $t(addServer.address) ay hindi maaaring walang laman",
             "invalid": "$t(addServer.address) ay hindi wasto",
-            "invalidProduct": "Hindi isang server ng Jellyfin",
+            "invalidProduct": "Hindi isang server ng squirrel",
             "noConnection": "Hindi makakonekta sa server"
         }
     },
     "home": {
         "errors": {
             "502": {
-                "description": "Hindi maabot ang server ng Jellyfin. Kadalasan ito ay dahil sa isang error sa configuration ng proxy o offline ang Jellyfin."
+                "description": "Hindi maabot ang server ng squirrel. Kadalasan ito ay dahil sa isang error sa configuration ng proxy o offline ang squirrel."
             },
             "504": {
-                "description": "Hindi maabot ang server ng Jellyfin. Ito ay kadalasan dahil nag-time out ang proxy habang kumokonekta sa Jellyfin."
+                "description": "Hindi maabot ang server ng squirrel. Ito ay kadalasan dahil nag-time out ang proxy habang kumokonekta sa squirrel."
             },
             "http": {
                 "heading": "May nangyaring mali!",
-                "description": "Nagbalik ng error ang server ng Jellyfin."
+                "description": "Nagbalik ng error ang server ng squirrel."
             },
             "invalidServer": {
                 "heading": "Hindi wasto ang server",
@@ -41,7 +41,7 @@
             },
             "offline": {
                 "heading": "Offline ang server?",
-                "description": "Error sa pakikipag-ugnayan sa server ng Jellyfin."
+                "description": "Error sa pakikipag-ugnayan sa server ng squirrel."
             }
         },
         "errorCode": "Error code: {{errorCode}}",
@@ -49,8 +49,8 @@
         "retry": "Subukan ulit?"
     },
     "serverHelp": {
-        "heading": "Ano ang Jellyfin?",
-        "description": "Ang Jellyfin ay ang media solution na binuo ng boluntaryo. Binibigyang-daan ka nitong mag-host ng iyong sariling media at i-access ito mula sa kahit saan.\n\n\nUpang magamit ang kliyenteng ito, kailangan mong mag-host ng iyong sariling server ng Jellyfin.",
+        "heading": "Ano ang squirrel?",
+        "description": "Ang squirrel ay ang media solution na binuo ng boluntaryo. Binibigyang-daan ka nitong mag-host ng iyong sariling media at i-access ito mula sa kahit saan.\n\n\nUpang magamit ang kliyenteng ito, kailangan mong mag-host ng iyong sariling server ng squirrel.",
         "learnMore": "Matuto nang higit pa tungkol sa kung paano mag-host ng iyong sariling server"
     },
     "settings": {
@@ -66,7 +66,7 @@
         "expoVersion": "Bersyon ng Expo: {{version}}"
     },
     "links": {
-        "website": "Website ng Jellyfin",
+        "website": "Website ng squirrel",
         "documentation": "Dokumentasyon",
         "source": "Source Code",
         "translate": "Isalin",

@@ -22,21 +22,21 @@
         "validation": {
             "empty": "$t(addServer.address) não pode estar vazio",
             "invalid": "$t(addServer.address) é inválido",
-            "invalidProduct": "Não é servidor de Jellyfin",
+            "invalidProduct": "Não é servidor de squirrel",
             "noConnection": "Não foi possível conectar ao servidor"
         }
     },
     "home": {
         "errors": {
             "502": {
-                "description": "Não foi possível conectar ao servidor Jellyfin. Isto normalmente ocorre devido a erros na configuração de proxy, ou o Jellyfin está offline."
+                "description": "Não foi possível conectar ao servidor squirrel. Isto normalmente ocorre devido a erros na configuração de proxy, ou o squirrel está offline."
             },
             "504": {
-                "description": "Não foi possível conectar ao servidor Jellyfin. Isto normalmente ocorre porque o proxy expirou durante a conexão com o Jellyfin."
+                "description": "Não foi possível conectar ao servidor squirrel. Isto normalmente ocorre porque o proxy expirou durante a conexão com o squirrel."
             },
             "http": {
                 "heading": "Algo correu mal!",
-                "description": "O servidor Jellyfin devolveu um erro."
+                "description": "O servidor squirrel devolveu um erro."
             },
             "invalidServer": {
                 "heading": "Servidor inválido",
@@ -44,7 +44,7 @@
             },
             "offline": {
                 "heading": "Servidor offline?",
-                "description": "Erro ao conectar ao servidor Jellyfin."
+                "description": "Erro ao conectar ao servidor squirrel."
             }
         },
         "errorCode": "Código de erro: {{errorCode}}",
@@ -52,8 +52,8 @@
         "retry": "Tentar novamente?"
     },
     "serverHelp": {
-        "heading": "O que é o Jellyfin?",
-        "description": "O Jellyfin é uma solução de multimédia criada por voluntários. Permite-lhe hospedar o sua próprio conteúdo e acedê-lo em qualquer lugar.\n\n\nPara usar este cliente, necessita de hospedar seu próprio servidor Jellyfin.",
+        "heading": "O que é o squirrel?",
+        "description": "O squirrel é uma solução de multimédia criada por voluntários. Permite-lhe hospedar o sua próprio conteúdo e acedê-lo em qualquer lugar.\n\n\nPara usar este cliente, necessita de hospedar seu próprio servidor squirrel.",
         "learnMore": "Saiba mais sobre como hospedar seu próprio servidor"
     },
     "settings": {
@@ -69,7 +69,7 @@
         "expoVersion": "Versão Expo: {{version}}"
     },
     "links": {
-        "website": "Site do Jellyfin",
+        "website": "Site do squirrel",
         "documentation": "Documentação",
         "source": "Código Fonte",
         "translate": "Traduzir",

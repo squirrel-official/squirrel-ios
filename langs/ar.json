@@ -22,14 +22,14 @@
         "validation": {
             "empty": "لابد من كتابة شيء في $t(addServer.address)",
             "invalid": "عنوان $t(addServer.address) عنوانا خاطئ",
-            "invalidProduct": "ليس من ضمن خوادم Jellyfin",
+            "invalidProduct": "ليس من ضمن خوادم squirrel",
             "noConnection": "فشلت محاولة الاتصال في الخادم"
         }
     },
     "home": {
         "errors": {
             "offline": {
-                "description": "حدث خطأ اثناء الوصول لخادم Jellyfin.",
+                "description": "حدث خطأ اثناء الوصول لخادم squirrel.",
                 "heading": "هل الخادم قيد التشغيل؟"
             },
             "invalidServer": {
@@ -37,17 +37,17 @@
                 "heading": "الخادم غير صالح"
             },
             "http": {
-                "description": "أبلغ تقرير خادم Jellyfin عن خطأ ما.",
+                "description": "أبلغ تقرير خادم squirrel عن خطأ ما.",
                 "heading": "حدث خطأ ما!"
             },
             "504": {
                 "description": "فشل الاتصال بخادم خالد. يعول السبب عادة إلى انتهاء الوقت المحدد للاتصال بالخادم في أثناء الاتصال بالخادم."
             },
             "502": {
-                "description": "فشل الاتصال في خادم Jellyfin. يعود السبب -في معظم الأوقات- إلى مشكلة في اعدادات الوكيل proxy، أو أن Jellyfin غير متصل في الشبكة."
+                "description": "فشل الاتصال في خادم squirrel. يعود السبب -في معظم الأوقات- إلى مشكلة في اعدادات الوكيل proxy، أو أن squirrel غير متصل في الشبكة."
             }
         },
-        "offline": "لم نتمكن من الوصول الى سيرفر Jellyfin.",
+        "offline": "لم نتمكن من الوصول الى سيرفر squirrel.",
         "retry": "هلّ حاولت مجددا؟",
         "errorUrl": "الرابط: {{url}}",
         "errorCode": "رمز الخطأ: {{errorCode}}"
@@ -65,7 +65,7 @@
         "nativeVideoPlayer": "استخدم مشغل الفيديو الأصلي"
     },
     "links": {
-        "website": "موقع Jellyfin",
+        "website": "موقع squirrel",
         "documentation": "دليل المستخدم",
         "source": "الشفرة المصدرية",
         "feature": "طلب خاصية",
@@ -85,8 +85,8 @@
         }
     },
     "serverHelp": {
-        "heading": "ما هو Jellyfin؟",
+        "heading": "ما هو squirrel؟",
         "learnMore": "تعرف إلى المزيد حول كيفية استضافة الخادم الخاص بك",
-        "description": "صُمم Jellyfin من قبل متطوعين، ويعد الحل لعرض الوسائط؛ إذ يوفر لك استضافة الوسائط الخاصة بك والوصول إليها من أي مكان.\n\n\nتحتاج إلى استضافة Jellyfin الخاص بك لاستخدام هذا البرنامج."
+        "description": "صُمم squirrel من قبل متطوعين، ويعد الحل لعرض الوسائط؛ إذ يوفر لك استضافة الوسائط الخاصة بك والوصول إليها من أي مكان.\n\n\nتحتاج إلى استضافة squirrel الخاص بك لاستخدام هذا البرنامج."
     }
 }

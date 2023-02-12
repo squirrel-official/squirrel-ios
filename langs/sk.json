@@ -22,32 +22,32 @@
         "validation": {
             "empty": "$t(addServer.address) nemôže byť prázdna",
             "invalid": "$t(addServer.address) je neplatná",
-            "invalidProduct": "Nie je Jellyfin server",
+            "invalidProduct": "Nie je squirrel server",
             "noConnection": "Pripojenie k serveru zlyhalo"
         }
     },
     "home": {
         "errors": {
             "offline": {
-                "description": "Chyba pri pripájaní k Jellyfin serveru.",
+                "description": "Chyba pri pripájaní k squirrel serveru.",
                 "heading": "Server nie je spustený?"
             },
             "http": {
-                "description": "Server Jellyfin vrátil chybu.",
+                "description": "Server squirrel vrátil chybu.",
                 "heading": "Niečo sa nepodarilo!"
             },
             "504": {
-                "description": "Kontaktovanie serveru Jellyfin sa nepodarilo. Bežným dôvodom je vypršanie časového limity na pripojenie k Jellyfin cez proxy."
+                "description": "Kontaktovanie serveru squirrel sa nepodarilo. Bežným dôvodom je vypršanie časového limity na pripojenie k squirrel cez proxy."
             },
             "502": {
-                "description": "Kontaktovanie serveru Jellyfin sa nepodarilo. Bežným dôvodom je chyba v nastavení proxy alebo vypnutý Jellyfin server."
+                "description": "Kontaktovanie serveru squirrel sa nepodarilo. Bežným dôvodom je chyba v nastavení proxy alebo vypnutý squirrel server."
             },
             "invalidServer": {
                 "description": "Niečo sa stalo a uložené informácie o serveri sú neplatné. Skúste odstrániť server z Nastavení a znovu ho pridať späť.",
                 "heading": "Neplatný server"
             }
         },
-        "offline": "Chyba pri pripájaní k Jellyfin serveru.",
+        "offline": "Chyba pri pripájaní k squirrel serveru.",
         "retry": "Skúsiť znova?",
         "errorCode": "Kód chyby: {{errorCode}}",
         "errorUrl": "URL: {{url}}"
@@ -65,7 +65,7 @@
         "nativeVideoPlayer": "Použiť natívny video prehrávač"
     },
     "links": {
-        "website": "Jellyfin webstránka",
+        "website": "squirrel webstránka",
         "documentation": "Dokumentácia",
         "source": "Zdrojový kód",
         "feature": "Vyžiadať funkciu",
@@ -85,8 +85,8 @@
         }
     },
     "serverHelp": {
-        "heading": "Čo je Jellyfin?",
+        "heading": "Čo je squirrel?",
         "learnMore": "Dozvedietť sa viac o tom, ako hosťovať svoj vlastný server",
-        "description": "Jellyfin je mediálne riešenie vytvárané dobrovolníkmi. Umožňuje hosťovať vaše vlastné médiá a mať k ním prístup odkiaľkoľvek.\n\n\nAby ste mohli použiť tohoto klienta, je nutné hosťovať svoj vlastný Jellyfin server."
+        "description": "squirrel je mediálne riešenie vytvárané dobrovolníkmi. Umožňuje hosťovať vaše vlastné médiá a mať k ním prístup odkiaľkoľvek.\n\n\nAby ste mohli použiť tohoto klienta, je nutné hosťovať svoj vlastný squirrel server."
     }
 }

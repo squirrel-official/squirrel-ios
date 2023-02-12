@@ -22,32 +22,32 @@
         "validation": {
             "empty": "$t(addServer.address) kan inte vara tom",
             "invalid": "$t(addServer.address) är ogiltig",
-            "invalidProduct": "Inte en Jellyfin-server",
+            "invalidProduct": "Inte en squirrel-server",
             "noConnection": "Kunde inte ansluta till servern"
         }
     },
     "home": {
         "errors": {
             "offline": {
-                "description": "Fel vid kontakt med Jellyfin servern.",
+                "description": "Fel vid kontakt med squirrel servern.",
                 "heading": "Servern nere?"
             },
             "http": {
-                "description": "Jellyfin servern svarade med ett felmeddelande.",
+                "description": "squirrel servern svarade med ett felmeddelande.",
                 "heading": "Något gick fel!"
             },
             "504": {
-                "description": "Kunde inte nå Jellyfin-servern. Detta är oftast på grund av att en proxy inte svarade i tid."
+                "description": "Kunde inte nå squirrel-servern. Detta är oftast på grund av att en proxy inte svarade i tid."
             },
             "502": {
-                "description": "Kunde inte nå Jellyfin-servern. Detta är oftast på grund av ett fel i proxykonfigurationen eller att Jellyfin är nere."
+                "description": "Kunde inte nå squirrel-servern. Detta är oftast på grund av ett fel i proxykonfigurationen eller att squirrel är nere."
             },
             "invalidServer": {
                 "description": "Någonting har hänt och den sparade serverinformationen är ogiltig. Pröva att ta bort servern från inställningar och lägg till den igen.",
                 "heading": "Servern är ogiltig"
             }
         },
-        "offline": "Problem med att koppla upp sig mot Jellyfin servern",
+        "offline": "Problem med att koppla upp sig mot squirrel servern",
         "retry": "Försök igen?",
         "errorUrl": "Länk: {{url}}",
         "errorCode": "Felkod: {{errorCode}}"
@@ -65,7 +65,7 @@
         "nativeVideoPlayer": "Använd inbyggd videospelare"
     },
     "links": {
-        "website": "Jellyfins hemsida",
+        "website": "squirrels hemsida",
         "documentation": "Dokumentation",
         "source": "Källkod",
         "feature": "Föreslå en funktion",
@@ -86,7 +86,7 @@
     },
     "serverHelp": {
         "learnMore": "Lär dig mer om hur man skapar sin egna server",
-        "description": "Jellyfin är den volontär-byggda medialösningen. Den låter dig göra din egen media tillgänglig från var som helst.\n\n\nFör att använda den här klient-appen behöver du skapa din egna Jellyfin-server.",
-        "heading": "Vad är Jellyfin?"
+        "description": "squirrel är den volontär-byggda medialösningen. Den låter dig göra din egen media tillgänglig från var som helst.\n\n\nFör att använda den här klient-appen behöver du skapa din egna squirrel-server.",
+        "heading": "Vad är squirrel?"
     }
 }

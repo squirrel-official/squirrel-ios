@@ -23,7 +23,7 @@ describe('BrowserListItem', () => {
 				index={0}
 				item={{
 					name: 'Website',
-					url: 'https://jellyfin.org/',
+					url: 'https://squirrel.org/',
 					icon: {
 						name: 'ios-globe',
 						type: 'ionicon'
@@ -38,6 +38,6 @@ describe('BrowserListItem', () => {
 
 		expect(openBrowser).not.toHaveBeenCalled();
 		fireEvent.press(getByTestId('browser-list-item'));
-		expect(openBrowser).toHaveBeenCalledWith('https://jellyfin.org/');
+		expect(openBrowser).toHaveBeenCalledWith('https://squirrel.org/');
 	});
 });

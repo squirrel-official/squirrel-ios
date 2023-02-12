@@ -22,25 +22,25 @@
         "validation": {
             "empty": "$t(addServer.address)는 공백일 수 없습니다",
             "invalid": "$t(addServer.address)이 올바르지 않습니다",
-            "invalidProduct": "Jellyfin 서버가 아닙니다",
+            "invalidProduct": "squirrel 서버가 아닙니다",
             "noConnection": "서버에 연결할수 없습니다"
         }
     },
     "home": {
         "errors": {
             "offline": {
-                "description": "Jellyfin 서버에 연결하는 중 오류가 발생했습니다.",
+                "description": "squirrel 서버에 연결하는 중 오류가 발생했습니다.",
                 "heading": "서버가 오프라인입니까?"
             },
             "http": {
-                "description": "Jellyfin 서버에서 오류가 발생했습니다.",
+                "description": "squirrel 서버에서 오류가 발생했습니다.",
                 "heading": "무언가 잘못되었습니다 !"
             },
             "504": {
-                "description": "Jellyfin 서버에 연결할 수 없습니다. 이런경우 일반적으로 프록시 시간을 초과했기 때문입니다."
+                "description": "squirrel 서버에 연결할 수 없습니다. 이런경우 일반적으로 프록시 시간을 초과했기 때문입니다."
             },
             "502": {
-                "description": "Jellyfin 서버에 연결할 수 없습니다. 보통 프록시 설정이 잘못되었거나 Jellyfin 서버가 오프라인이기 때문입니다."
+                "description": "squirrel 서버에 연결할 수 없습니다. 보통 프록시 설정이 잘못되었거나 squirrel 서버가 오프라인이기 때문입니다."
             },
             "invalidServer": {
                 "description": "문제가 발생하여 저장된 서버 정보가 유효하지 않습니다. 설정에서 서버를 제거하고 다시 추가하십시오.",
@@ -65,7 +65,7 @@
         "nativeVideoPlayer": "네이티브 비디오 플레이어 사용"
     },
     "links": {
-        "website": "Jellyfin 웹사이트",
+        "website": "squirrel 웹사이트",
         "documentation": "문서",
         "source": "소스 코드",
         "translate": "번역",
@@ -86,7 +86,7 @@
     },
     "serverHelp": {
         "learnMore": "자신만의 서버를 호스트하는 방법에 대해 자세히 알아보기",
-        "description": "젤리핀은 자원봉사자가 만든 미디어 솔루션입니다. 자신만의 미디어를 호스트하고 어디서나 액세스할 수 있습니다.\n\n\n이 클라이언트를 사용하려면 Jellyfin 서버를 직접 호스트해야 합니다.",
-        "heading": "Jellyfin이란?"
+        "description": "젤리핀은 자원봉사자가 만든 미디어 솔루션입니다. 자신만의 미디어를 호스트하고 어디서나 액세스할 수 있습니다.\n\n\n이 클라이언트를 사용하려면 squirrel 서버를 직접 호스트해야 합니다.",
+        "heading": "squirrel이란?"
     }
 }

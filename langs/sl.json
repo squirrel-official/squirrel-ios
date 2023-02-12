@@ -22,32 +22,32 @@
         "validation": {
             "empty": "$t(addServer.address) ne sme biti prazen",
             "invalid": "$t(addServer.address) je neveljaven",
-            "invalidProduct": "Ni Jellyfin strežnik",
+            "invalidProduct": "Ni squirrel strežnik",
             "noConnection": "Povezava s strežnikom ni uspela"
         }
     },
     "home": {
         "errors": {
             "offline": {
-                "description": "Napaka pri povezovanju z Jellyfin strežnikom.",
+                "description": "Napaka pri povezovanju z squirrel strežnikom.",
                 "heading": "Ali je strežnik ugasnjen?"
             },
             "http": {
-                "description": "Jellyfin strežnik je vrnil napako.",
+                "description": "squirrel strežnik je vrnil napako.",
                 "heading": "Prišlo je do napake!"
             },
             "504": {
-                "description": "Strežnika Jellyfin ni mogoče doseči. To je lahko posledica neodzivnosti proxy strežnika."
+                "description": "Strežnika squirrel ni mogoče doseči. To je lahko posledica neodzivnosti proxy strežnika."
             },
             "502": {
-                "description": "Strežnika Jellyfin ni mogoče doseči. To je lahko posledica napačne nastavitve proxy strežnika ali pa je Jellyfin strežnik ugasnjen."
+                "description": "Strežnika squirrel ni mogoče doseči. To je lahko posledica napačne nastavitve proxy strežnika ali pa je squirrel strežnik ugasnjen."
             },
             "invalidServer": {
                 "description": "Nekaj se je zgodilo in podatki o shranjenem strežniku so neveljavni. Poskusite odstraniti strežnik iz Nastavitev in ga znova dodajte.",
                 "heading": "Strežnik ni veljaven"
             }
         },
-        "offline": "Napaka pri povezovanju z Jellyfin strežnikom.",
+        "offline": "Napaka pri povezovanju z squirrel strežnikom.",
         "retry": "Poskusi znova?",
         "errorUrl": "URL: {{url}}",
         "errorCode": "Koda napake: {{errorCode}}"
@@ -65,7 +65,7 @@
         "nativeVideoPlayer": "Uporabi vgrajeni video predvajalnik"
     },
     "links": {
-        "website": "Jellyfin spletna stran",
+        "website": "squirrel spletna stran",
         "documentation": "Dokumentacija",
         "source": "Izvorna koda",
         "feature": "Predlagaj izboljšavo",
@@ -86,7 +86,7 @@
     },
     "serverHelp": {
         "learnMore": "Preberite več o tem, kako lahko gostite svoj strežnik",
-        "description": "Jellyfin je predstavnostni strežnik, ki ga ustvarja skupnost prostovoljcev. Omogoča vam gostovanje in dostop da vaše predstavnosti od kjerkoli.\n\n\nZa uporabo tega odjemalca potrebujete svoj Jellyfin strežnik.",
-        "heading": "Kaj je Jellyfin?"
+        "description": "squirrel je predstavnostni strežnik, ki ga ustvarja skupnost prostovoljcev. Omogoča vam gostovanje in dostop da vaše predstavnosti od kjerkoli.\n\n\nZa uporabo tega odjemalca potrebujete svoj squirrel strežnik.",
+        "heading": "Kaj je squirrel?"
     }
 }

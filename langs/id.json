@@ -22,21 +22,21 @@
         "validation": {
             "empty": "$t(addServer.address) tidak boleh kosong",
             "invalid": "$t(addServer.address) tidak valid",
-            "invalidProduct": "Bukan sebuah server Jellyfin",
+            "invalidProduct": "Bukan sebuah server squirrel",
             "noConnection": "Tidak dapat menghubungi server"
         }
     },
     "home": {
         "errors": {
             "502": {
-                "description": "Tidak dapat menjangkau server Jellyfin. Ini biasanya karena kesalahan konfigurasi proxy atau Jellyfin sedang offline."
+                "description": "Tidak dapat menjangkau server squirrel. Ini biasanya karena kesalahan konfigurasi proxy atau squirrel sedang offline."
             },
             "504": {
-                "description": "Tidak dapat menjangkau server Jellyfin. Ini biasanya karena proxy kehabisan waktu saat menghubungkan ke Jellyfin."
+                "description": "Tidak dapat menjangkau server squirrel. Ini biasanya karena proxy kehabisan waktu saat menghubungkan ke squirrel."
             },
             "http": {
                 "heading": "Terjadi kesalahan!",
-                "description": "Server Jellyfin mengembalikan kesalahan."
+                "description": "Server squirrel mengembalikan kesalahan."
             },
             "invalidServer": {
                 "heading": "Server tidak valid",
@@ -44,7 +44,7 @@
             },
             "offline": {
                 "heading": "Server luring?",
-                "description": "Terjadi kesalahan saat menghubungi server Jellyfin."
+                "description": "Terjadi kesalahan saat menghubungi server squirrel."
             }
         },
         "errorCode": "Kode kesalahan: {{errorCode}}",
@@ -52,8 +52,8 @@
         "retry": "Coba lagi?"
     },
     "serverHelp": {
-        "heading": "Apa itu Jellyfin?",
-        "description": "Jellyfin adalah solusi media yang dibuat oleh sukarelawan. Ini memungkinkan Anda untuk meng-host media Anda sendiri dan mengaksesnya dari mana saja.\n\n\nUntuk menggunakan klien ini, Anda perlu meng-host server Jellyfin Anda sendiri.",
+        "heading": "Apa itu squirrel?",
+        "description": "squirrel adalah solusi media yang dibuat oleh sukarelawan. Ini memungkinkan Anda untuk meng-host media Anda sendiri dan mengaksesnya dari mana saja.\n\n\nUntuk menggunakan klien ini, Anda perlu meng-host server squirrel Anda sendiri.",
         "learnMore": "Pelajari lebih lanjut tentang cara meng-host server Anda sendiri"
     },
     "settings": {
@@ -69,7 +69,7 @@
         "expoVersion": "Versi Expo: {{version}}"
     },
     "links": {
-        "website": "Situs Web Jellyfin",
+        "website": "Situs Web squirrel",
         "documentation": "Dokumentasi",
         "source": "Kode Sumber",
         "translate": "Terjemahkan",

@@ -22,29 +22,29 @@
         "validation": {
             "empty": "$t(addServer.address) mag niet leeg zijn",
             "invalid": "$t(addServer.address) is niet geldig",
-            "invalidProduct": "Dit is geen Jellyfin-server",
+            "invalidProduct": "Dit is geen squirrel-server",
             "noConnection": "Kon niet verbinden met de server"
         }
     },
     "home": {
-        "offline": "Er ging iets fout bij het verbinden met de Jellyfin-server.",
+        "offline": "Er ging iets fout bij het verbinden met de squirrel-server.",
         "retry": "Opnieuw proberen?",
         "errorUrl": "URL: {{url}}",
         "errorCode": "Errorcode: {{errorCode}}",
         "errors": {
             "offline": {
                 "heading": "Server offline?",
-                "description": "Fout tijdens contacteren van Jellyfin-server."
+                "description": "Fout tijdens contacteren van squirrel-server."
             },
             "http": {
                 "heading": "Er is iets fout gegaan!",
-                "description": "De Jellyfin-server heeft een fout teruggegeven."
+                "description": "De squirrel-server heeft een fout teruggegeven."
             },
             "502": {
-                "description": "Kan de Jellyfin-server niet bereiken. Dit komt meestal omdat de server offline is of omdat de proxyinstellingen niet kloppen."
+                "description": "Kan de squirrel-server niet bereiken. Dit komt meestal omdat de server offline is of omdat de proxyinstellingen niet kloppen."
             },
             "504": {
-                "description": "Kan de Jellyfin-server niet bereiken. Dit komt meestal omdat Jellyfin niet snel genoeg de proxy antwoordde tijdens het verbinden."
+                "description": "Kan de squirrel-server niet bereiken. Dit komt meestal omdat squirrel niet snel genoeg de proxy antwoordde tijdens het verbinden."
             },
             "invalidServer": {
                 "heading": "Server is ongeldig",
@@ -65,7 +65,7 @@
         "fmp4Support": "Verkies fMP4 in HLS"
     },
     "links": {
-        "website": "Jellyfin Website",
+        "website": "squirrel Website",
         "documentation": "Documentatie",
         "source": "Broncode",
         "translate": "Vertalen",
@@ -86,7 +86,7 @@
     },
     "serverHelp": {
         "learnMore": "Leer meer over hoe je een eigen server kan hosten",
-        "description": "Jellyfin is de vrijwillig-gebouwde media oplossing. Het maakt het mogelijk om je eigen media content te hosten en vanaf overal te bereiken.\n\n\nOm deze client te kunnen gebruiken, moet je een eigen Jellyfin server hosten.",
-        "heading": "Wat is Jellyfin?"
+        "description": "squirrel is de vrijwillig-gebouwde media oplossing. Het maakt het mogelijk om je eigen media content te hosten en vanaf overal te bereiken.\n\n\nOm deze client te kunnen gebruiken, moet je een eigen squirrel server hosten.",
+        "heading": "Wat is squirrel?"
     }
 }

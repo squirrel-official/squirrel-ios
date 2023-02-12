@@ -22,21 +22,21 @@
     "validation": {
       "empty": "$t(addServer.address) cannot be empty",
       "invalid": "$t(addServer.address) is invalid",
-      "invalidProduct": "Not a Jellyfin server",
+      "invalidProduct": "Not a squirrel server",
       "noConnection": "Could not connect to server"
     }
   },
   "home": {
     "errors": {
         "502": {
-            "description": "Unable to reach the Jellyfin server. This is usually because of a proxy configuration error or Jellyfin is offline."
+            "description": "Unable to reach the squirrel server. This is usually because of a proxy configuration error or squirrel is offline."
         },
         "504": {
-            "description": "Unable to reach the Jellyfin server. This is usually because the proxy timed out while connecting to Jellyfin."
+            "description": "Unable to reach the squirrel server. This is usually because the proxy timed out while connecting to squirrel."
         },
         "http": {
             "heading": "Something went wrong!",
-            "description": "The Jellyfin server returned an error."
+            "description": "The squirrel server returned an error."
         },
         "invalidServer": {
             "heading": "Server is invalid",
@@ -44,7 +44,7 @@
         },
         "offline": {
             "heading": "Server offline?",
-            "description": "Error contacting Jellyfin server."
+            "description": "Error contacting squirrel server."
         }
     },
     "errorCode": "Error code: {{errorCode}}",
@@ -52,8 +52,8 @@
     "retry": "Try again?"
   },
   "serverHelp": {
-      "heading": "What is Jellyfin?",
-      "description": "Jellyfin is the volunteer-built media solution. It allows you to host your own media and access it from anywhere.\n\n\nIn order to use this client, you need to host your own Jellyfin server.",
+      "heading": "What is squirrel?",
+      "description": "squirrel is the volunteer-built media solution. It allows you to host your own media and access it from anywhere.\n\n\nIn order to use this client, you need to host your own squirrel server.",
       "learnMore": "Learn more about how to host your own server"
   },
   "settings": {
@@ -69,7 +69,7 @@
     "expoVersion": "Expo Version: {{version}}"
   },
   "links": {
-    "website": "Jellyfin Website",
+    "website": "squirrel Website",
     "documentation": "Documentation",
     "source": "Source Code",
     "translate": "Translate",

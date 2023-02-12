@@ -22,32 +22,32 @@
         "validation": {
             "empty": "$t(addServer.address) kan ikke være tom",
             "invalid": "$t(addServer.address) er ugyldig",
-            "invalidProduct": "Ikke en Jellyfin server",
+            "invalidProduct": "Ikke en squirrel server",
             "noConnection": "Kunne ikke få forbindelse til serveren"
         }
     },
     "home": {
         "errors": {
             "offline": {
-                "description": "Fejl ved kontakt med Jellyfin-server.",
+                "description": "Fejl ved kontakt med squirrel-server.",
                 "heading": "Server offline?"
             },
             "502": {
-                "description": "Kan ikke oprette forbindelse til Jellyfin serveren. Dette skyldes ofte en fejl i proxy opsætningen eller at Jellyfin serveren er offline."
+                "description": "Kan ikke oprette forbindelse til squirrel serveren. Dette skyldes ofte en fejl i proxy opsætningen eller at squirrel serveren er offline."
             },
             "http": {
-                "description": "Jellyfin serveren returnerede en fejl.",
+                "description": "squirrel serveren returnerede en fejl.",
                 "heading": "Noget gik galt!"
             },
             "504": {
-                "description": "Kan ikke oprette forbindelse til Jellyfin serveren. Dette skyldes ofte at proxy forbindelsen udløb mens den forbandt til Jellyfin."
+                "description": "Kan ikke oprette forbindelse til squirrel serveren. Dette skyldes ofte at proxy forbindelsen udløb mens den forbandt til squirrel."
             },
             "invalidServer": {
                 "description": "En fejl er opstået og informationen gemt på serveren er ugyldigt. Prøv at fjerne serveren under Indstillinger og derefter tilføj den igen.",
                 "heading": "Server er ugyldig"
             }
         },
-        "offline": "Fejl ved kontakt med Jellyfin-server.",
+        "offline": "Fejl ved kontakt med squirrel-server.",
         "retry": "Prøv igen?",
         "errorUrl": "URL: {{url}}",
         "errorCode": "Fejlkode: {{errorCode}}"
@@ -65,7 +65,7 @@
         "nativeVideoPlayer": "Brug den indbyggede video afspiller"
     },
     "links": {
-        "website": "Jellyfin websted",
+        "website": "squirrel websted",
         "documentation": "Dokumentation",
         "source": "Kildekode",
         "feature": "Anmod om en funktion",
@@ -86,7 +86,7 @@
     },
     "serverHelp": {
         "learnMore": "Lær mere om hvordan du hoster din egen server",
-        "description": "Jellyfin er medie løsning bygget af frivillige. Den tillader dig at hoste dine egne medier og tilgå dem overalt.\n\n\nFor at bruge denne klient skal du hoste din egen Jellyfin server.",
-        "heading": "Hvad er Jellyfin?"
+        "description": "squirrel er medie løsning bygget af frivillige. Den tillader dig at hoste dine egne medier og tilgå dem overalt.\n\n\nFor at bruge denne klient skal du hoste din egen squirrel server.",
+        "heading": "Hvad er squirrel?"
     }
 }

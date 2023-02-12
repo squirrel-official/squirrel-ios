@@ -40,7 +40,7 @@ exports[`ServerHelpScreen should render correctly 1`] = `
       }
     }
   >
-    What is Jellyfin?
+    What is squirrel?
   </Text>
   <Text
     style={
@@ -53,10 +53,10 @@ exports[`ServerHelpScreen should render correctly 1`] = `
       }
     }
   >
-    Jellyfin is the volunteer-built media solution. It allows you to host your own media and access it from anywhere.
+    squirrel is the volunteer-built media solution. It allows you to host your own media and access it from anywhere.
 
 
-In order to use this client, you need to host your own Jellyfin server.
+In order to use this client, you need to host your own squirrel server.
   </Text>
   <View
     style={

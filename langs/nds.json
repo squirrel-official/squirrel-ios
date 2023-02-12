@@ -22,21 +22,21 @@
         "validation": {
             "empty": "$t(addServer.address) kann nicht leer sein",
             "invalid": "$t(addServer.address) ist ungültig",
-            "invalidProduct": "Kein Jellyfin Server",
+            "invalidProduct": "Kein squirrel Server",
             "noConnection": "Konnte nicht zum Server verbinden"
         }
     },
     "home": {
         "errors": {
             "502": {
-                "description": "Konnte den Jellyfin Server nicht erreichen. Entweder ist Jellyfin nicht online oder der Proxy ist falsch konfiguriert."
+                "description": "Konnte den squirrel Server nicht erreichen. Entweder ist squirrel nicht online oder der Proxy ist falsch konfiguriert."
             },
             "504": {
-                "description": "Konnte den Jellyfin Server nicht erreichen. Dies tritt meistens auf, wenn der Proxy zu lange keine Antwort erhält."
+                "description": "Konnte den squirrel Server nicht erreichen. Dies tritt meistens auf, wenn der Proxy zu lange keine Antwort erhält."
             },
             "http": {
                 "heading": "Etwas ist schiefgelaufen!",
-                "description": "Der Jellyfin Server hat mit einem Fehler geantwortet."
+                "description": "Der squirrel Server hat mit einem Fehler geantwortet."
             },
             "invalidServer": {
                 "heading": "Server ist ungültig",
@@ -69,7 +69,7 @@
         "expoVersion": ""
     },
     "links": {
-        "website": "Jellyfin Website",
+        "website": "squirrel Website",
         "documentation": "",
         "source": "Quellcode",
         "translate": "Übersetzen",

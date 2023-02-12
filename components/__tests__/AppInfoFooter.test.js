@@ -41,7 +41,7 @@ describe('AppInfoFooter', () => {
 		);
 
 		const appName = getByTestId('app-name');
-		expect(appName).toHaveTextContent('Jellyfin Mobile (Test OS)');
+		expect(appName).toHaveTextContent('squirrel Mobile (Test OS)');
 		fireEvent(appName, 'onLongPress');
 		expect(mockNavigate).toHaveBeenCalledWith(Screens.DevSettingsScreen);
 		expect(getByTestId('app-version')).toHaveTextContent('1.0.0 (1.0.0.0)');

@@ -22,32 +22,32 @@
         "validation": {
             "empty": "$t(addServer.address) 不能为空",
             "invalid": "$t(addServer.address) 无效",
-            "invalidProduct": "不是 Jellyfin 服务器",
+            "invalidProduct": "不是 squirrel 服务器",
             "noConnection": "无法连接到服务器"
         }
     },
     "home": {
         "errors": {
             "offline": {
-                "description": "连接 Jellyfin 服务器时出错。",
+                "description": "连接 squirrel 服务器时出错。",
                 "heading": "服务器离线？"
             },
             "http": {
-                "description": "Jellyfin 服务器返回了一个错误。",
+                "description": "squirrel 服务器返回了一个错误。",
                 "heading": "出错了！"
             },
             "504": {
-                "description": "无法连接到 Jellyfin 服务器。这可能是由于连接到 Jellyfin 服务器时代理超时。"
+                "description": "无法连接到 squirrel 服务器。这可能是由于连接到 squirrel 服务器时代理超时。"
             },
             "502": {
-                "description": "无法连接到 Jellyfin 服务器。这可能是由于代理设置错误或是 Jellyfin 服务器离线。"
+                "description": "无法连接到 squirrel 服务器。这可能是由于代理设置错误或是 squirrel 服务器离线。"
             },
             "invalidServer": {
                 "heading": "无效的服务器",
                 "description": "有错误发生，已保存的服务器端信息无效，请尝试从设置中先删除再重新添加。"
             }
         },
-        "offline": "连接Jellyfin服务器时出错。",
+        "offline": "连接squirrel服务器时出错。",
         "retry": "是否重试？",
         "errorUrl": "网络地址： {{url}}",
         "errorCode": "错误代码：{{errorCode}}"
@@ -65,7 +65,7 @@
         "fmp4Support": "优先在 HLS 中使用 fMP4"
     },
     "links": {
-        "website": "Jellyfin 网站",
+        "website": "squirrel 网站",
         "documentation": "说明文档",
         "source": "源代码",
         "feature": "功能请求",
@@ -86,7 +86,7 @@
     },
     "serverHelp": {
         "learnMore": "了解有关如何自建服务器的更多信息",
-        "description": "Jellyfin 是由志愿者构建的媒体解决方案。 它允许您托管自己的媒体并从任何地方访问它。\n\n\n要使用此客户端，您需要拥有自己的 Jellyfin 服务器。",
-        "heading": "什么是 Jellyfin？"
+        "description": "squirrel 是由志愿者构建的媒体解决方案。 它允许您托管自己的媒体并从任何地方访问它。\n\n\n要使用此客户端，您需要拥有自己的 squirrel 服务器。",
+        "heading": "什么是 squirrel？"
     }
 }

@@ -22,21 +22,21 @@
         "validation": {
             "empty": "$t(addServer.address) ei voi olla tyhjä",
             "invalid": "$t(addServer.address) ei ole kelvollinen",
-            "invalidProduct": "Ei ole Jellyfin palvelin",
+            "invalidProduct": "Ei ole squirrel palvelin",
             "noConnection": "Ei voida yhdistää palvelimeen"
         }
     },
     "home": {
         "errors": {
             "502": {
-                "description": "Ei voida yhdistää Jellyfin palvelimeen. Tämä useimmiten johtuu välityspalvelimen määrittelyvirheestä tai Jellyfin ei ole verkossa."
+                "description": "Ei voida yhdistää squirrel palvelimeen. Tämä useimmiten johtuu välityspalvelimen määrittelyvirheestä tai squirrel ei ole verkossa."
             },
             "504": {
-                "description": "Ei voida yhdistää Jellyfin palvelimeen. Tämä useimmiten johtuu välityspalvelimen aikakatkaisusta yhdistäessä Jellyfin palvelimeen."
+                "description": "Ei voida yhdistää squirrel palvelimeen. Tämä useimmiten johtuu välityspalvelimen aikakatkaisusta yhdistäessä squirrel palvelimeen."
             },
             "http": {
                 "heading": "Jokin meni pieleen!",
-                "description": "Jellyfin palvelin palautti virheen."
+                "description": "squirrel palvelin palautti virheen."
             },
             "invalidServer": {
                 "heading": "Palvelin ei ole kelvollinen",
@@ -44,7 +44,7 @@
             },
             "offline": {
                 "heading": "Palvelin verkottomassa tilassa?",
-                "description": "Virhe yhdistäessä Jellyfin palvelimeen."
+                "description": "Virhe yhdistäessä squirrel palvelimeen."
             }
         },
         "errorCode": "Virhekoodi: {{errorCode}}",
@@ -52,8 +52,8 @@
         "retry": "Yritä uudelleen?"
     },
     "serverHelp": {
-        "heading": "Mikä on Jellyfin?",
-        "description": "Jellyfin on vapaaehtoisten kehittämä mediaratkaisu. Sen avulla jaat ja käytät mediasisältöäsi mistä tahansa.\n\n\nTämä asiakassovellus edellyttää oman Jellyfin-palvelimen asennusta ja määritystä.",
+        "heading": "Mikä on squirrel?",
+        "description": "squirrel on vapaaehtoisten kehittämä mediaratkaisu. Sen avulla jaat ja käytät mediasisältöäsi mistä tahansa.\n\n\nTämä asiakassovellus edellyttää oman squirrel-palvelimen asennusta ja määritystä.",
         "learnMore": "Lue lisää oman palvelimesi isännöimisestä"
     },
     "settings": {
@@ -69,7 +69,7 @@
         "expoVersion": "Expo versio: {{version}}"
     },
     "links": {
-        "website": "Jellyfin verkkosivu",
+        "website": "squirrel verkkosivu",
         "documentation": "Dokumentaatio",
         "source": "Lähdekoodi",
         "translate": "Käännä",

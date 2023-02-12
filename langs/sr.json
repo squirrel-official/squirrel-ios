@@ -22,21 +22,21 @@
         "validation": {
             "empty": "$t(addServer.address) не може бити празно",
             "invalid": "$t(addServer.address) је неважеће",
-            "invalidProduct": "Није Jellyfin сервер",
+            "invalidProduct": "Није squirrel сервер",
             "noConnection": "Не могу да се повежем на сервер"
         }
     },
     "home": {
         "errors": {
             "502": {
-                "description": "Није могуће доћи до Jellyfin сервера. То је обично због грешке у конфигурацији проксија или је Jellyfin ван мреже."
+                "description": "Није могуће доћи до squirrel сервера. То је обично због грешке у конфигурацији проксија или је squirrel ван мреже."
             },
             "504": {
-                "description": "Није могуће доћи до Jellyfin сервера. То је обично зато што је прокси истекло при повезивању са Jellyfin."
+                "description": "Није могуће доћи до squirrel сервера. То је обично зато што је прокси истекло при повезивању са squirrel."
             },
             "http": {
                 "heading": "Нешто је кренуло наопако!",
-                "description": "Jellyfin сервер је вратио грешку."
+                "description": "squirrel сервер је вратио грешку."
             },
             "invalidServer": {
                 "heading": "Сервер је неважећи",
@@ -44,7 +44,7 @@
             },
             "offline": {
                 "heading": "Сервер није на мрежи?",
-                "description": "Грешка при контактирању Jellyfin сервера."
+                "description": "Грешка при контактирању squirrel сервера."
             }
         },
         "errorCode": "Код грешке: {{errorCode}}",
@@ -64,7 +64,7 @@
         "fmp4Support": "Преферирајте fMP4 у HLS"
     },
     "links": {
-        "website": "Веб локација Jellyfin-а",
+        "website": "Веб локација squirrel-а",
         "documentation": "Документација",
         "source": "Изворни код",
         "translate": "Преведи",
@@ -85,7 +85,7 @@
     },
     "serverHelp": {
         "learnMore": "Сазнајте више о томе како да имате сопствени сервер",
-        "description": "Jellyfin је медијско решење које су израдили волонтери. Омогућава вам да имате сопствене медије и да им приступате са било ког места.\n\n\nДа бисте користили овог клијента, морате да имате свој Jellyfin сервер.",
-        "heading": "Шта је Jellyfin?"
+        "description": "squirrel је медијско решење које су израдили волонтери. Омогућава вам да имате сопствене медије и да им приступате са било ког места.\n\n\nДа бисте користили овог клијента, морате да имате свој squirrel сервер.",
+        "heading": "Шта је squirrel?"
     }
 }

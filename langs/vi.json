@@ -20,21 +20,21 @@
         "validation": {
             "empty": "$t(addServer.address) không thể để trống",
             "invalid": "$t(addServer.address) không hợp lệ",
-            "invalidProduct": "Không phải máy chủ Jellyfin",
+            "invalidProduct": "Không phải máy chủ squirrel",
             "noConnection": "Không thể kết nối tới máy chủ"
         }
     },
     "home": {
         "errors": {
             "502": {
-                "description": "Không thể truy cập máy chủ Jellyfin. Điều này thường là do lỗi cấu hình proxy hoặc Jellyfin đang ngoại tuyến."
+                "description": "Không thể truy cập máy chủ squirrel. Điều này thường là do lỗi cấu hình proxy hoặc squirrel đang ngoại tuyến."
             },
             "504": {
-                "description": "Không thể truy cập máy chủ Jellyfin. Điều này thường là do proxy đã hết thời gian chờ khi kết nối với Jellyfin."
+                "description": "Không thể truy cập máy chủ squirrel. Điều này thường là do proxy đã hết thời gian chờ khi kết nối với squirrel."
             },
             "http": {
                 "heading": "Đã xảy ra lỗi!",
-                "description": "Máy chủ Jellyfin trả lại lỗi."
+                "description": "Máy chủ squirrel trả lại lỗi."
             },
             "invalidServer": {
                 "heading": "Máy chủ không hợp lệ",
@@ -42,7 +42,7 @@
             },
             "offline": {
                 "heading": "Máy chủ ngoại tuyến?",
-                "description": "Lỗi khi kết nối với máy chủ Jellyfin."
+                "description": "Lỗi khi kết nối với máy chủ squirrel."
             }
         },
         "errorCode": "Mã lỗi: {{errorCode}}",
@@ -50,8 +50,8 @@
         "retry": "Thử lại?"
     },
     "serverHelp": {
-        "heading": "Jellyfin là gì?",
-        "description": "Jellyfin là giải pháp truyền thông do tình nguyện viên xây dựng. Nó cho phép bạn lưu trữ phương tiện của riêng mình và truy cập nó từ mọi nơi.\n\n\nĐể sử dụng ứng dụng khách này, bạn cần phải lưu trữ máy chủ Jellyfin của riêng mình.",
+        "heading": "squirrel là gì?",
+        "description": "squirrel là giải pháp truyền thông do tình nguyện viên xây dựng. Nó cho phép bạn lưu trữ phương tiện của riêng mình và truy cập nó từ mọi nơi.\n\n\nĐể sử dụng ứng dụng khách này, bạn cần phải lưu trữ máy chủ squirrel của riêng mình.",
         "learnMore": "Tìm hiểu thêm về cách lưu trữ máy chủ của riêng bạn"
     },
     "settings": {
@@ -67,7 +67,7 @@
         "expoVersion": "Phiên bản Expo: {{version}}"
     },
     "links": {
-        "website": "Trang Web Jellyfin",
+        "website": "Trang Web squirrel",
         "documentation": "Tài liệu",
         "source": "Mã Nguồn",
         "translate": "Phiên dịch",

@@ -22,32 +22,32 @@
         "validation": {
             "empty": "$t(addServer.address) não pode estar vazio",
             "invalid": "$t(addServer.address) é inválido",
-            "invalidProduct": "Não é um servidor Jellyfin",
+            "invalidProduct": "Não é um servidor squirrel",
             "noConnection": "Não foi possível se conectar ao servidor"
         }
     },
     "home": {
         "errors": {
             "offline": {
-                "description": "Erro ao entrar em contato com o servidor Jellyfin.",
+                "description": "Erro ao entrar em contato com o servidor squirrel.",
                 "heading": "Servidor offline?"
             },
             "http": {
-                "description": "O servidor Jellyfin retornou um erro.",
+                "description": "O servidor squirrel retornou um erro.",
                 "heading": "Algo deu errado!"
             },
             "504": {
-                "description": "Não foi possível acessar o servidor Jellyfin. Isso normalmente ocorre porque o proxy expirou durante a conexão com o Jellyfin."
+                "description": "Não foi possível acessar o servidor squirrel. Isso normalmente ocorre porque o proxy expirou durante a conexão com o squirrel."
             },
             "502": {
-                "description": "Não foi possível acessar o servidor Jellyfin. Isso normalmente ocorre devido a erros na configuração de proxy ou o Jellyfin está offline."
+                "description": "Não foi possível acessar o servidor squirrel. Isso normalmente ocorre devido a erros na configuração de proxy ou o squirrel está offline."
             },
             "invalidServer": {
                 "description": "Algo aconteceu e as informações do servidor salvas são inválidas. Tente remover o servidor de Configurações e adicioná-lo novamente.",
                 "heading": "Servidor inválido"
             }
         },
-        "offline": "Erro ao entrar em contato com o servidor Jellyfin.",
+        "offline": "Erro ao entrar em contato com o servidor squirrel.",
         "retry": "Tentar novamente?",
         "errorUrl": "Link: {{url}}",
         "errorCode": "Código de erro: {{errorCode}}"
@@ -65,7 +65,7 @@
         "nativeVideoPlayer": "Usar player nativo"
     },
     "links": {
-        "website": "Site do Jellyfin",
+        "website": "Site do squirrel",
         "documentation": "Documentação",
         "source": "Código fonte",
         "translate": "Traduzir",
@@ -86,7 +86,7 @@
     },
     "serverHelp": {
         "learnMore": "Saiba mais sobre como hospedar seu próprio servidor",
-        "description": "Jellyfin é a solução de mídia criada por voluntários. Ele permite que você hospede sua própria mídia e acesse de qualquer lugar.\n\n\nPara usar este cliente, você precisa hospedar seu próprio servidor Jellyfin.",
-        "heading": "O que é Jellyfin?"
+        "description": "squirrel é a solução de mídia criada por voluntários. Ele permite que você hospede sua própria mídia e acesse de qualquer lugar.\n\n\nPara usar este cliente, você precisa hospedar seu próprio servidor squirrel.",
+        "heading": "O que é squirrel?"
     }
 }

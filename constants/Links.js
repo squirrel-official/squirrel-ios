@@ -5,13 +5,13 @@
  */
 import { getIconName } from '../utils/Icons';
 
-export const QuickStartUrl = 'https://jellyfin.org/docs/general/quick-start.html';
+export const QuickStartUrl = 'https://squirrel.org/docs/general/quick-start.html';
 
 export default [
 	{
 		key: 'links-website',
 		name: 'links.website',
-		url: 'https://jellyfin.org/',
+		url: 'https://squirrel.org/',
 		icon: {
 			name: getIconName('globe-outline'),
 			type: 'ionicon'
@@ -20,7 +20,7 @@ export default [
 	{
 		key: 'links-documentation',
 		name: 'links.documentation',
-		url: 'https://docs.jellyfin.org',
+		url: 'https://docs.squirrel.org',
 		icon: {
 			name: getIconName('book'),
 			type: 'ionicon'
@@ -29,7 +29,7 @@ export default [
 	{
 		key: 'links-source',
 		name: 'links.source',
-		url: 'https://github.com/jellyfin/jellyfin-expo',
+		url: 'https://github.com/squirrel/squirrel-expo',
 		icon: {
 			name: 'logo-github',
 			type: 'ionicon'
@@ -38,7 +38,7 @@ export default [
 	{
 		key: 'links-translate',
 		name: 'links.translate',
-		url: 'https://translate.jellyfin.org/projects/jellyfin/jellyfin-expo/',
+		url: 'https://translate.squirrel.org/projects/squirrel/squirrel-expo/',
 		icon: {
 			name: 'translate',
 			type: 'material'
@@ -47,7 +47,7 @@ export default [
 	{
 		key: 'links-issue',
 		name: 'links.issue',
-		url: 'https://github.com/jellyfin/jellyfin-expo/issues',
+		url: 'https://github.com/squirrel/squirrel-expo/issues',
 		icon: {
 			name: getIconName('bug'),
 			type: 'ionicon'

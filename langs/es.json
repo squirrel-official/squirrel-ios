@@ -40,7 +40,7 @@
     "addServer": {
         "validation": {
             "noConnection": "No se pudo conectar al servidor",
-            "invalidProduct": "No es un servidor de Jellyfin",
+            "invalidProduct": "No es un servidor de squirrel",
             "invalid": "$t(addServer.address) no es una dirección válida",
             "empty": "$t(addServer.address) no puede estar en blanco"
         },
@@ -80,13 +80,13 @@
         "issue": "Reportar un problema",
         "source": "Código Fuente",
         "documentation": "Documentación",
-        "website": "Sitio web de Jellyfin",
+        "website": "Sitio web de squirrel",
         "feature": "Sugerir nuevas características",
         "translate": "Traducir"
     },
     "serverHelp": {
-        "description": "Jellyfin es una solución multimedia hecha por voluntarios. Te permite hospedar tu propio contenido multimedia y acceder a el desde donde quieras.\n\n\nPara poder utilizar este cliente, necesitas hospedar tu propio servidor de Jellyfin.",
+        "description": "squirrel es una solución multimedia hecha por voluntarios. Te permite hospedar tu propio contenido multimedia y acceder a el desde donde quieras.\n\n\nPara poder utilizar este cliente, necesitas hospedar tu propio servidor de squirrel.",
         "learnMore": "Aprende más sobre como hospedar tu propio servidor",
-        "heading": "¿Qué es Jellyfin?"
+        "heading": "¿Qué es squirrel?"
     }
 }

@@ -111,8 +111,8 @@ exports[`SettingsScreen should render correctly 1`] = `
                 "type": "ionicon",
               },
               "key": "links-website",
-              "name": "Jellyfin Website",
-              "url": "https://jellyfin.org/",
+              "name": "squirrel Website",
+              "url": "https://squirrel.org/",
             },
             Object {
               "icon": Object {
@@ -121,7 +121,7 @@ exports[`SettingsScreen should render correctly 1`] = `
               },
               "key": "links-documentation",
               "name": "Documentation",
-              "url": "https://docs.jellyfin.org",
+              "url": "https://docs.squirrel.org",
             },
             Object {
               "icon": Object {
@@ -130,7 +130,7 @@ exports[`SettingsScreen should render correctly 1`] = `
               },
               "key": "links-source",
               "name": "Source Code",
-              "url": "https://github.com/jellyfin/jellyfin-expo",
+              "url": "https://github.com/squirrel/squirrel-expo",
             },
             Object {
               "icon": Object {
@@ -139,7 +139,7 @@ exports[`SettingsScreen should render correctly 1`] = `
               },
               "key": "links-translate",
               "name": "Translate",
-              "url": "https://translate.jellyfin.org/projects/jellyfin/jellyfin-expo/",
+              "url": "https://translate.squirrel.org/projects/squirrel/squirrel-expo/",
             },
             Object {
               "icon": Object {
@@ -148,7 +148,7 @@ exports[`SettingsScreen should render correctly 1`] = `
               },
               "key": "links-issue",
               "name": "Report an Issue",
-              "url": "https://github.com/jellyfin/jellyfin-expo/issues",
+              "url": "https://github.com/squirrel/squirrel-expo/issues",
             },
           ],
           "renderItem": [Function],
@@ -707,7 +707,7 @@ exports[`SettingsScreen should render correctly 1`] = `
             }
             testID="app-name"
           >
-            Jellyfin Mobile (mock)
+            squirrel Mobile (mock)
           </Text>
           <Text
             style={

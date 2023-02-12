@@ -22,25 +22,25 @@
         "validation": {
             "empty": "$t(addServer.address) を空にすることはできません",
             "invalid": "$t(addServer.address)は無効",
-            "invalidProduct": "Jellyfinのサーバーではない",
+            "invalidProduct": "squirrelのサーバーではない",
             "noConnection": "接続失敗"
         }
     },
     "home": {
         "errors": {
             "502": {
-                "description": "Jellyfinサーバーに到達できません。プロキシ設定に誤りがあるかJellyfinがオフラインの可能性があります。"
+                "description": "squirrelサーバーに到達できません。プロキシ設定に誤りがあるかsquirrelがオフラインの可能性があります。"
             },
             "504": {
-                "description": "Jellyfinサーバーに到達できません。Jellyfinへの接続中にプロキシがタイムアウトした可能性があります。"
+                "description": "squirrelサーバーに到達できません。squirrelへの接続中にプロキシがタイムアウトした可能性があります。"
             },
             "http": {
                 "heading": "問題が発生しました!",
-                "description": "Jellyfinサーバーがエラーを返しました。"
+                "description": "squirrelサーバーがエラーを返しました。"
             },
             "offline": {
                 "heading": "サーバーはオフラインですか?",
-                "description": "Jellyfinサーバーへ接続中にエラーが発生しました。"
+                "description": "squirrelサーバーへ接続中にエラーが発生しました。"
             },
             "invalidServer": {
                 "description": "何かが起きて、保存されたサーバー情報が無効になっています。設定からサーバーを削除して、再度追加してみてください。",
@@ -64,7 +64,7 @@
         "nativeVideoPlayer": "ネイティブビデオプレーヤーを使用する"
     },
     "links": {
-        "website": "Jellyfinウェブサイト",
+        "website": "squirrelウェブサイト",
         "documentation": "ドキュメント",
         "source": "ソースコード",
         "translate": "翻訳",
@@ -85,7 +85,7 @@
     },
     "serverHelp": {
         "learnMore": "あなた自身のサーバーをホストする方法について詳しく知る",
-        "description": "Jellyfinは、ボランティアで作られたメディアソリューションです。自分のメディアをホストし、どこからでもアクセスできるようにします。\n\n\nこのクライアントを使用するためには、あなた自身のJellyfinサーバーをホストする必要があります。",
-        "heading": "Jellyfinとは？"
+        "description": "squirrelは、ボランティアで作られたメディアソリューションです。自分のメディアをホストし、どこからでもアクセスできるようにします。\n\n\nこのクライアントを使用するためには、あなた自身のsquirrelサーバーをホストする必要があります。",
+        "heading": "squirrelとは？"
     }
 }

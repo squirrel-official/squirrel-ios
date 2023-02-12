@@ -12,8 +12,8 @@ assignees: ''
 
 **System (please complete the following information):**
  - iOS Version:
- - Jellyfin Expo version:
- - Jellyfin Server version:
+ - squirrel Expo version:
+ - squirrel Server version:
 
 **To Reproduce**
 <!-- Steps to reproduce the behavior: -->

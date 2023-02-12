@@ -22,32 +22,32 @@
         "validation": {
             "empty": "$t(addServer.address) nesmí být prázdná",
             "invalid": "$t(addServer.address) není platná",
-            "invalidProduct": "Nejedná se o server Jellyfin",
+            "invalidProduct": "Nejedná se o server squirrel",
             "noConnection": "Nelze se připojit k serveru"
         }
     },
     "home": {
         "errors": {
             "offline": {
-                "description": "Chyba při kontaktování serveru Jellyfin.",
+                "description": "Chyba při kontaktování serveru squirrel.",
                 "heading": "Server není spuštěn?"
             },
             "http": {
-                "description": "Server Jellyfin vrátil chybu.",
+                "description": "Server squirrel vrátil chybu.",
                 "heading": "Něco se nezdařilo!"
             },
             "504": {
-                "description": "Kontaktování serveru Jellyfin se nezdařilo. Běžným důvodem je vypršení časového limitu při připojení k Jellyfin přes proxy."
+                "description": "Kontaktování serveru squirrel se nezdařilo. Běžným důvodem je vypršení časového limitu při připojení k squirrel přes proxy."
             },
             "502": {
-                "description": "Kontaktování serveru Jellyfin se nezdařilo. Běžným důvodem je chyba v nastavení proxy nebo není Jellfyfin spuštěn."
+                "description": "Kontaktování serveru squirrel se nezdařilo. Běžným důvodem je chyba v nastavení proxy nebo není Jellfyfin spuštěn."
             },
             "invalidServer": {
                 "description": "Něco se stalo a nyní jsou uložené informace o serveru neplatné. Zkuste server odstranit v Nastavení a znovu ho přidat.",
                 "heading": "Server není platný"
             }
         },
-        "offline": "Chyba při kontaktování serveru Jellyfin.",
+        "offline": "Chyba při kontaktování serveru squirrel.",
         "retry": "Zkusit znovu?",
         "errorUrl": "URL: {{url}}",
         "errorCode": "Kód chyby: {{errorCode}}"
@@ -65,7 +65,7 @@
         "fmp4Support": "Upřednostňovat fMP4 v HLS"
     },
     "links": {
-        "website": "Web projektu Jellyfin",
+        "website": "Web projektu squirrel",
         "documentation": "Dokumentace",
         "source": "Zdrojový kód",
         "feature": "Zažádat o novou funkci",
@@ -86,7 +86,7 @@
     },
     "serverHelp": {
         "learnMore": "Dovědět se více o hostování vlastního serveru",
-        "description": "Jellyfin je řešení pro média tvořené dobrovolníky. Umožňuje hostovat vaše vlastní média a mít k ním přístup odkudkoliv.\n\n\nAbyste mohli použít tento klient, je nutné hostovat svůj vlastní server Jellyfin.",
-        "heading": "Co je Jellyfin?"
+        "description": "squirrel je řešení pro média tvořené dobrovolníky. Umožňuje hostovat vaše vlastní média a mít k ním přístup odkudkoliv.\n\n\nAbyste mohli použít tento klient, je nutné hostovat svůj vlastní server squirrel.",
+        "heading": "Co je squirrel?"
     }
 }

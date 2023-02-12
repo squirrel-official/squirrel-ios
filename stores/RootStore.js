@@ -7,7 +7,7 @@
 // polyfill crypto.getRandomValues
 import 'react-native-get-random-values';
 
-import { Jellyfin } from '@jellyfin/sdk';
+import { squirrel } from '@squirrel/sdk';
 import Constants from 'expo-constants';
 import { action, computed, decorate, observable } from 'mobx';
 import { ignore } from 'mobx-sync-lite';
@@ -52,7 +52,7 @@ export default class RootStore {
 	settingStore = new SettingStore()
 
 	get sdk() {
-		return new Jellyfin({
+		return new squirrel({
 			clientInfo: {
 				name: getAppName(),
 				version: Constants.nativeAppVersion

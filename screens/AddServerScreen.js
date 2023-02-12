@@ -67,7 +67,7 @@ const AddServerScreen = () => {
 								/>
 							</View>
 						}
-						placeholder='https://jellyfin.org'
+						placeholder='https://squirrel.org'
 					/>
 				</View>
 			</SafeAreaView>

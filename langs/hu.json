@@ -22,25 +22,25 @@
         "validation": {
             "empty": "A $t(addServer.address) nem lehet üres",
             "invalid": "A $t(addServer.address) hibás",
-            "invalidProduct": "Ez nem egy Jellyfin szerver",
+            "invalidProduct": "Ez nem egy squirrel szerver",
             "noConnection": "Nem sikerült csatlakozni a szerverhez"
         }
     },
     "home": {
         "errors": {
             "502": {
-                "description": "Nem sikerült elérni a Jellyfin szervert. Ez általában hibás proxy beállításnak köszönhető, vagy leállított Jellyfin szervernek."
+                "description": "Nem sikerült elérni a squirrel szervert. Ez általában hibás proxy beállításnak köszönhető, vagy leállított squirrel szervernek."
             },
             "504": {
-                "description": "Nem sikerült elérni a Jellyfin szervert. Ez általában annak köszönhető, hogy a proxy nem válaszolt időben miközben a Jellyfin szerverhez csatlakozott."
+                "description": "Nem sikerült elérni a squirrel szervert. Ez általában annak köszönhető, hogy a proxy nem válaszolt időben miközben a squirrel szerverhez csatlakozott."
             },
             "http": {
                 "heading": "Valami nem sikerült!",
-                "description": "A Jellyfin szerver hibával válaszolt."
+                "description": "A squirrel szerver hibával válaszolt."
             },
             "offline": {
                 "heading": "Leállított szerver?",
-                "description": "Hiba a Jellyfin szerverhez kapcsolódás közben."
+                "description": "Hiba a squirrel szerverhez kapcsolódás közben."
             },
             "invalidServer": {
                 "heading": "Érvénytelen szerver",
@@ -64,7 +64,7 @@
         "fmp4Support": "fMP4 preferálása HLS-ben"
     },
     "links": {
-        "website": "Jellyfin weboldala",
+        "website": "squirrel weboldala",
         "documentation": "Dokumentáció",
         "source": "Forráskód",
         "translate": "Fordítás",
@@ -85,7 +85,7 @@
     },
     "serverHelp": {
         "learnMore": "Tudj meg többet a saját szervered üzemeltetéséről",
-        "description": "A Jellyfin az önkéntesek által épített média megoldás. Lehetővé teszi, hogy saját médiádat tárold, és bárhonnan elérhesd.\n\n\nEnnek a rendszernek a használatához saját Jellyfin szervert kell üzemeltetned.",
-        "heading": "Mi az a Jellyfin?"
+        "description": "A squirrel az önkéntesek által épített média megoldás. Lehetővé teszi, hogy saját médiádat tárold, és bárhonnan elérhesd.\n\n\nEnnek a rendszernek a használatához saját squirrel szervert kell üzemeltetned.",
+        "heading": "Mi az a squirrel?"
     }
 }

@@ -22,21 +22,21 @@
         "validation": {
             "empty": "$t(addServer.address) ne može biti prazna",
             "invalid": "$t(addServer.address) nije ispravna",
-            "invalidProduct": "Nije Jellyfin server",
+            "invalidProduct": "Nije squirrel server",
             "noConnection": "Neuspješno spajanje na server"
         }
     },
     "home": {
         "errors": {
             "502": {
-                "description": "U ovom trenutku nije moguće doći do Jellyfin servera. Problem inače nastaje zbog greške u konfiguraciji proxy-a ili Jellyfin servis nije dostupan."
+                "description": "U ovom trenutku nije moguće doći do squirrel servera. Problem inače nastaje zbog greške u konfiguraciji proxy-a ili squirrel servis nije dostupan."
             },
             "504": {
-                "description": "Nije moguće pristupiti Jellyfin serveru. To je obično zato što je proxy istekao tijekom povezivanja na Jellyfin."
+                "description": "Nije moguće pristupiti squirrel serveru. To je obično zato što je proxy istekao tijekom povezivanja na squirrel."
             },
             "http": {
                 "heading": "Nešto je pošlo po zlu!",
-                "description": "Jellyfin server je vratio grešku."
+                "description": "squirrel server je vratio grešku."
             },
             "invalidServer": {
                 "heading": "Server je nevažeći",
@@ -44,7 +44,7 @@
             },
             "offline": {
                 "heading": "Server nije na mreži?",
-                "description": "Pogreška pri kontaktiranju Jellyfin servera."
+                "description": "Pogreška pri kontaktiranju squirrel servera."
             }
         },
         "errorCode": "Greška: {{errorCode}}",
@@ -52,7 +52,7 @@
         "retry": "Pokušajte ponovno?"
     },
     "serverHelp": {
-        "heading": "Što je Jellyfin?",
+        "heading": "Što je squirrel?",
         "description": "",
         "learnMore": "Saznajte više o tome kako host-ati vlastiti server"
     },
@@ -69,7 +69,7 @@
         "expoVersion": "Expo verzija: {{version}}"
     },
     "links": {
-        "website": "Jellyfin web stranica",
+        "website": "squirrel web stranica",
         "documentation": "Dokumentacija",
         "source": "Izvorni kod",
         "translate": "Prevedi",

@@ -42,7 +42,7 @@ exports[`NativeShellWebView should render correctly 1`] = `
         injectedJavaScript={null}
         injectedJavaScriptBeforeContentLoaded="
 window.ExpoAppInfo = {
-	appName: 'Jellyfin Mobile',
+	appName: 'squirrel Mobile',
 	appVersion: 'mock',
 	deviceId: 'undefined',
 	deviceName: 'Test Device'
