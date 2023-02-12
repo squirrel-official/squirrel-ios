@@ -25,6 +25,8 @@
    npm start
    ```
 
-4. Follow the directions in the terminal or browser window to open on a device or emulator.
+
+4. For app files
+https://docs.expo.dev/build/setup/
 
 

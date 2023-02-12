@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "squirrel",
-    "slug": "squirrel-expo",
-    "owner": "squirrel",
+    "slug": "squirrel-ios",
+    "owner": "anil.kumar.ait09",
     "privacy": "unlisted",
     "platforms": [
       "ios",
@@ -36,6 +36,11 @@
         ]
       }
     },
-    "description": "squirrel Mobile"
+    "description": "squirrel Mobile",
+    "extra": {
+      "eas": {
+        "projectId": "d626739c-06cb-4f4e-9b88-c79bf479de54"
+      }
+    }
   }
 }
