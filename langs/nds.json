@@ -1,0 +1,90 @@
+{
+    "common": {
+        "beta": "Beta",
+        "cancel": "Abbrechen",
+        "ok": "Ok",
+        "unknown": "Unbekannt",
+        "edit": "Bearbeiten",
+        "delete": "Löschen"
+    },
+    "headings": {
+        "addServer": "Server hinzufügen",
+        "appearance": "Erscheinungsbild",
+        "home": "Start",
+        "links": "Verknüpfungen",
+        "playback": "Wiedergabe",
+        "servers": "Servers",
+        "settings": "Einstellungen",
+        "downloads": "Downloads"
+    },
+    "addServer": {
+        "address": "Server Adresse",
+        "validation": {
+            "empty": "$t(addServer.address) kann nicht leer sein",
+            "invalid": "$t(addServer.address) ist ungültig",
+            "invalidProduct": "Kein Jellyfin Server",
+            "noConnection": "Konnte nicht zum Server verbinden"
+        }
+    },
+    "home": {
+        "errors": {
+            "502": {
+                "description": "Konnte den Jellyfin Server nicht erreichen. Entweder ist Jellyfin nicht online oder der Proxy ist falsch konfiguriert."
+            },
+            "504": {
+                "description": "Konnte den Jellyfin Server nicht erreichen. Dies tritt meistens auf, wenn der Proxy zu lange keine Antwort erhält."
+            },
+            "http": {
+                "heading": "Etwas ist schiefgelaufen!",
+                "description": "Der Jellyfin Server hat mit einem Fehler geantwortet."
+            },
+            "invalidServer": {
+                "heading": "Server ist ungültig",
+                "description": ""
+            },
+            "offline": {
+                "heading": "Server nicht erreichbar?",
+                "description": ""
+            }
+        },
+        "errorCode": "",
+        "errorUrl": "",
+        "retry": ""
+    },
+    "serverHelp": {
+        "heading": "",
+        "description": "",
+        "learnMore": ""
+    },
+    "settings": {
+        "version": "Version: {{version}}",
+        "keepAwake": "",
+        "nativeVideoPlayer": "",
+        "minimumServerVersion": "Benötigt Server Version 10.7+",
+        "fmp4Support": "",
+        "lightTheme": "",
+        "systemTheme": "",
+        "rotationLock": "",
+        "tabLabels": "Tab Labels anzeigen",
+        "expoVersion": ""
+    },
+    "links": {
+        "website": "Jellyfin Website",
+        "documentation": "",
+        "source": "Quellcode",
+        "translate": "Übersetzen",
+        "issue": ""
+    },
+    "alerts": {
+        "deleteServer": {
+            "title": "Server entfernen",
+            "description": "Sind Sie sicher, dass Sie den Server {{serverName}} entfernen wollen?",
+            "confirm": "Löschen"
+        },
+        "resetApplication": {
+            "title": "Applikation zurücksetzen",
+            "description": "Sind Sie sicher, dass Sie alle Einstellungen zurücksetzen wollen?",
+            "confirm": "Zurücksetzen"
+        }
+    }
+}

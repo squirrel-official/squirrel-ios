@@ -1,0 +1,91 @@
+{
+    "common": {
+        "cancel": "בטל",
+        "ok": "אוקי",
+        "unknown": "לא ידוע",
+        "edit": "עריכה",
+        "delete": "מחק",
+        "beta": "BETA"
+    },
+    "headings": {
+        "addServer": "הוסף שרת",
+        "appearance": "מראה",
+        "home": "ראשי",
+        "links": "קישורים",
+        "playback": "השמעה",
+        "servers": "שרתים",
+        "settings": "הגדרות",
+        "downloads": "הורדות"
+    },
+    "addServer": {
+        "address": "כתובת השרת",
+        "validation": {
+            "empty": "$t(addServer.address) לא יכול להיות ריק",
+            "invalid": "$t(addServer.address) לא תקין",
+            "invalidProduct": "לא שרת Jellyfin",
+            "noConnection": "לא אפשרי להתחבר לשרת"
+        }
+    },
+    "home": {
+        "errors": {
+            "502": {
+                "description": "לא יכול להגיע לשרת Jellyfin. זה בדרך כלל קורה מכיוון שיש שגיאה בהגדרת ה-proxy או ש-Jellyfin לא מחובר."
+            },
+            "504": {
+                "description": ""
+            },
+            "http": {
+                "heading": "משהו השתבש!",
+                "description": ""
+            },
+            "invalidServer": {
+                "heading": "השרת אינו תקין",
+                "description": "משהו התרחש והמידע השמור על השרת אינו חוקי. נסה להסיר את השרת מההגדרות ולהוסיף אותו בחזרה."
+            },
+            "offline": {
+                "heading": "השרת במצב לא מקוון ?",
+                "description": ""
+            }
+        },
+        "errorCode": "קוד שגיאה : {{errorCode}}",
+        "errorUrl": "כתובת אתר: {{url}}",
+        "retry": "נסה שוב ?"
+    },
+    "serverHelp": {
+        "heading": "מה זה Jellyfin?",
+        "description": "",
+        "learnMore": "למד עוד על איך לארח שרת משלך"
+    },
+    "settings": {
+        "version": "גרסא: {{version}}",
+        "keepAwake": "שמור על המסך ער",
+        "nativeVideoPlayer": "השתמש בנגן מדיה מקורי",
+        "minimumServerVersion": "דורש שרת עם גרסה +10.7",
+        "fmp4Support": "",
+        "lightTheme": "השתמש בערכת נושא בהירה",
+        "systemTheme": "השתמש בערכת נושא המועדפת של המערכת",
+        "rotationLock": "נעילת סיבוב",
+        "tabLabels": "הצג",
+        "expoVersion": "גרסת Expo: {{version}}"
+    },
+    "links": {
+        "website": "אתר Jellyfin",
+        "documentation": "תיעוד",
+        "source": "קוד מקור",
+        "translate": "תרגם",
+        "feature": "",
+        "issue": "דווח על בעיה"
+    },
+    "alerts": {
+        "deleteServer": {
+            "title": "מחק שרת",
+            "description": "האם אתה בטוח שברצונך למחוק את השרת {{serverName}}?",
+            "confirm": "מחק"
+        },
+        "resetApplication": {
+            "title": "אפס את האפליקציה",
+            "description": "האם אתה בטוח שברצונך לאפס את כל ההגדרות?",
+            "confirm": "אפס"
+        }
+    }
+}

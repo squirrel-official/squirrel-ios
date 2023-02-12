@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Jellyfin",
+    "slug": "jellyfin-expo",
+    "owner": "jellyfin",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.5.0",
+    "orientation": "default",
+    "primaryColor": "#00a4dc",
+    "backgroundColor": "#101010",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#101010"
+    },
+    "updates": {
+      "enabled": false,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "5.5.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "org.jellyfin.expo",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      }
+    },
+    "description": "Jellyfin Mobile"
+  }
+}

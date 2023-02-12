@@ -1,0 +1,87 @@
+{
+    "common": {
+        "beta": "БЕТА",
+        "cancel": "Цуцлах",
+        "ok": "",
+        "unknown": "Тодорхойгүй"
+    },
+    "headings": {
+        "addServer": "",
+        "appearance": "",
+        "home": "",
+        "links": "",
+        "playback": "Тоглуулах",
+        "servers": "",
+        "settings": "Тохиргоо"
+    },
+    "addServer": {
+        "address": "",
+        "validation": {
+            "empty": "",
+            "invalid": "",
+            "invalidProduct": "",
+            "noConnection": ""
+        }
+    },
+    "home": {
+        "errors": {
+            "502": {
+                "description": ""
+            },
+            "504": {
+                "description": ""
+            },
+            "http": {
+                "heading": "Ямар нэгэн зүйл буруугаар эргэсэн!",
+                "description": ""
+            },
+            "invalidServer": {
+                "heading": "",
+                "description": ""
+            },
+            "offline": {
+                "heading": "",
+                "description": ""
+            }
+        },
+        "errorCode": "",
+        "errorUrl": "URL: {{url}}",
+        "retry": ""
+    },
+    "serverHelp": {
+        "heading": "",
+        "description": "",
+        "learnMore": ""
+    },
+    "settings": {
+        "version": "Хувилбар: {{version}}",
+        "keepAwake": "",
+        "nativeVideoPlayer": "",
+        "minimumServerVersion": "",
+        "fmp4Support": "",
+        "lightTheme": "",
+        "systemTheme": "",
+        "rotationLock": "",
+        "tabLabels": "",
+        "expoVersion": "Expo Хувилбар: {{version}}"
+    },
+    "links": {
+        "website": "",
+        "documentation": "",
+        "source": "",
+        "translate": "",
+        "issue": ""
+    },
+    "alerts": {
+        "deleteServer": {
+            "title": "",
+            "description": "",
+            "confirm": ""
+        },
+        "resetApplication": {
+            "title": "",
+            "description": "",
+            "confirm": ""
+        }
+    }
+}

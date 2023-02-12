@@ -1,0 +1,92 @@
+{
+    "common": {
+        "cancel": "Abbrechen",
+        "unknown": "Unbekannt",
+        "ok": "OK",
+        "beta": "BETA",
+        "edit": "Bearbeiten",
+        "delete": "Löschen"
+    },
+    "headings": {
+        "addServer": "Server hinzufügen",
+        "home": "Startseite",
+        "links": "Links",
+        "servers": "Server",
+        "settings": "Einstellungen",
+        "playback": "Wiedergabe",
+        "appearance": "Aussehen",
+        "downloads": "Downloads"
+    },
+    "addServer": {
+        "address": "Serveradresse",
+        "validation": {
+            "empty": "$t(addServer.address) kann nicht leer sein",
+            "invalid": "$t(addServer.address) ist ungültig",
+            "invalidProduct": "Kein Jellyfin Server",
+            "noConnection": "Verbindung zum Server nicht möglich"
+        }
+    },
+    "home": {
+        "errors": {
+            "offline": {
+                "description": "Fehler bei der Verbindungsaufnahme mit dem Server.",
+                "heading": "Ist der Server offline?"
+            },
+            "http": {
+                "description": "Der Jellyfin Server hat einen Fehler zurückgegeben.",
+                "heading": "Etwas ist schiefgelaufen!"
+            },
+            "504": {
+                "description": "Der Server kann nicht erreicht werden. Möglicherweise ist beim Versuch den Server zu erreichen ein Proxy Timeout aufgetreten."
+            },
+            "502": {
+                "description": "Der Jellyfin Server ist nicht erreichbar. Dies ist meistens ein Fehler in der Proxy Konfiguration oder der Server ist offline."
+            },
+            "invalidServer": {
+                "description": "Etwas ist passiert und die gespeicherten Serverinformationen sind ungültig. Versuche den Server von den Einstellungen zu löschen und neu hinzuzufügen.",
+                "heading": "Server ist ungültig"
+            }
+        },
+        "offline": "Fehler bei der Verbindungsaufnahme mit dem Server.",
+        "retry": "Erneut versuchen?",
+        "errorUrl": "URL: {{url}}",
+        "errorCode": "Fehlercode: {{errorCode}}"
+    },
+    "settings": {
+        "version": "Version: {{version}}",
+        "keepAwake": "Bildschirm angeschaltet lassen",
+        "rotationLock": "Bildschirm nicht drehen",
+        "expoVersion": "Expo Version: {{version}}",
+        "tabLabels": "Zeige Tab-Überschriften",
+        "lightTheme": "Helles Design verwenden",
+        "systemTheme": "Benutze Systemdesign",
+        "minimumServerVersion": "Benötigt Serverversion 10.7+",
+        "nativeVideoPlayer": "Nativen Video-Player verwenden",
+        "fmp4Support": "fMP4 in HLS bevorzugen"
+    },
+    "links": {
+        "website": "Jellyfin Website",
+        "documentation": "Dokumentation",
+        "source": "Quellcode",
+        "feature": "Neue Funktion vorschlagen",
+        "issue": "Fehler melden",
+        "translate": "Übersetzen"
+    },
+    "alerts": {
+        "deleteServer": {
+            "title": "Server löschen",
+            "description": "Server {{serverName}} wirklich löschen?",
+            "confirm": "Löschen"
+        },
+        "resetApplication": {
+            "title": "App zurücksetzen",
+            "description": "Wirklich alle Einstellungen zurücksetzen?",
+            "confirm": "Zurücksetzen"
+        }
+    },
+    "serverHelp": {
+        "learnMore": "Erfahre mehr darüber, wie du deinen eigenen Server betreiben kannst",
+        "description": "Jellyfin ist die von Freiwilligen gebaute Medienlösung. Sie ermöglicht es dir, deine eigenen Medien zu hosten und von überall darauf zuzugreifen.\n\n\nUm diesen Client nutzen zu können, musst du deinen eigenen Jellyfin-Server betreiben.",
+        "heading": "Was ist Jellyfin?"
+    }
+}
